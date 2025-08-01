@@ -2,5 +2,6 @@ include('../../../../cnsia-config-server/Tiltfile')
 include('../../../../cnsia-edge-service/Tiltfile')
 include('../../../../cnsia-order-service/Tiltfile')
 include('../../../../cnsia-catalog-service/Tiltfile')
+include('../../../../cnsia-dispatcher-service/Tiltfile')
 
 update_settings(max_parallel_updates=1)
